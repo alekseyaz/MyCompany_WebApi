@@ -1,4 +1,6 @@
-namespace MyCompany_WebApi
+using System;
+
+namespace MyCompany.Name.WebAPI
 {
     public class WeatherForecast
     {

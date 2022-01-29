@@ -1,6 +1,10 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
-namespace MyCompany_WebApi.Controllers
+namespace MyCompany.Name.WebAPI.Controllers
 {
     [ApiController]
     [Route("[controller]")]
