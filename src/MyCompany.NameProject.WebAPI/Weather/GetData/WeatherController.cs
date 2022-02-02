@@ -15,9 +15,8 @@ namespace MyCompany.NameProject.WebAPI.Weather.GetData
         /// <summary>
         /// Получение данных погоды.
         /// </summary>
-        /// <param name="code">Код пользователя, полученный от ЕСИА</param>
-        /// <param name="state">Уникальный идентификатор UUID, отправленный ранее для авторизации пользователя в ЕСИА</param>
-        /// <returns>Модель с данными Пользователя из ЕСИА</returns>
+        /// <param name="city">Наименование города</param>
+        /// <returns>Модель с описанием погоды</returns>
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
