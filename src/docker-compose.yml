@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  mycompany.nameproject.webapi:
+    image: ${DOCKER_REGISTRY-}mycompanynameprojectwebapi
+    build:
+      context: .
+      dockerfile: MyCompany.NameProject.WebAPI/Dockerfile
