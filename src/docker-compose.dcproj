@@ -5,7 +5,7 @@
     <DockerTargetOS>Linux</DockerTargetOS>
     <ProjectGuid>a1be4db0-2b14-4edd-98f2-72fa5facb581</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
-    <DockerServiceUrl>{Scheme}://localhost:{ServicePort}/swagger</DockerServiceUrl>
+    <DockerServiceUrl>http://localhost:5100/swagger</DockerServiceUrl>
     <DockerServiceName>mycompany.nameproject.webapi</DockerServiceName>
   </PropertyGroup>
   <ItemGroup>
